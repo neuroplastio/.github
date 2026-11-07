@@ -15,8 +15,8 @@ parts taken out, the code you think is at fault, or a fix as a diff. Anything
 you post there is offered under the project's license (Apache-2.0). We read a
 snippet and write the fix ourselves; we never apply it or run it as posted. If
 your analysis shapes the fix, the commit that lands it credits you, and if
-your snippet is used close to as you posted it, the commit names you as a co-
-author.
+your snippet is used close to as you posted it, the commit names you as a
+co-author.
 
 Be civil. We lock or delete what isn't.
 
