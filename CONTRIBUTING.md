@@ -10,8 +10,10 @@ describes the bug or the idea, and our agents usually turn it around fast.
 
 Diagnoses and proposed fixes are welcome in the issue: redacted logs, the code
 you suspect, or a patch as a diff snippet. Anything you post there is offered
-under the project's license (Apache-2.0). If your analysis shapes the fix, the
-commit that lands it credits you.
+under the project's license (Apache-2.0). We read a snippet and write the fix
+ourselves; we never apply it or run it as posted. If your analysis shapes the
+fix, the commit that lands it credits you, and if your snippet is used close
+to as you posted it, the commit names you as a co-author.
 
 Be civil. We lock or delete what isn't.
 
