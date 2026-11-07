@@ -1,0 +1,44 @@
+name: Bug report
+description: Report something that doesn't work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please search existing issues first. Don't share credentials or full
+        logs: redact any excerpt or screenshot before you attach it.
+        Diagnoses and proposed fixes are welcome here. We don't take pull
+        requests, but the commit that fixes it credits your analysis.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release, or the commit if you built from source.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and terminal
+      description: OS and version, and the terminal you ran it in, with its version.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: If it's intermittent, say when it happens.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Optional redacted errors, screenshots, the code you suspect, or a patch as a diff.

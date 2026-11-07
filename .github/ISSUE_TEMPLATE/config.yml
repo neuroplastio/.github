@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerabilities
+    url: https://github.com/neuroplastio/.github/blob/main/SECURITY.md
+    about: Report by email to security@neuroplast.io, never in a public issue.
