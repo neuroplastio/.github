@@ -1,0 +1,36 @@
+name: Story
+description: Something works, but it's unpleasant to use. Tell us what you were trying to do, and where you stalled.
+labels: [story]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A story describes the situation, not the change you want: someone else should be able to walk it and see whether they stall too. Don't name keys, commands or features ("press L", "use the palette"). Describe the goal and stop. See the [contributing guide](https://github.com/neuroplastio/.github/blob/main/CONTRIBUTING.md#stories). A bug, a crash or wrong output doesn't need a story: use the bug form.
+  - type: textarea
+    id: situation
+    attributes:
+      label: The situation
+      description: Why were you at your terminal? What was going on? Write it so a stranger could be in your place.
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Your goal
+      description: What you were trying to achieve. Never how.
+    validations:
+      required: true
+  - type: textarea
+    id: stalled
+    attributes:
+      label: Where you stalled
+      description: What you reached for that wasn't there, where you stopped to think, and how it ended.
+    validations:
+      required: true
+  - type: textarea
+    id: version
+    attributes:
+      label: Version and setup
+      description: The version, the OS and the terminal.
+    validations:
+      required: false
