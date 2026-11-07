@@ -1,48 +1,26 @@
-# neuroplastio
+# neuroplast.io
 
-We're working to widen the bandwidth between people and machines.
+Our mission is to boost the bandwidth between humans and machines.
 
-We build the tools we use every day. Each project starts with a "what if"
-question, and we work on what we need most, with the time we have. AI agents
-do much of the building: they make it cheap to try an idea, and cheap to drop
-it. So some parts of a project are polished and others are still rough, until
-we come back to them.
+## Welcome
 
-## What we build
+Ever since my first PC, I've been looking for ways to make my workflow perfectly efficient. I grew into a hardcore gamer, then into a software engineer. Over time I found that my gaming skills give me an edge in my work, so setup-maxxing just became a thing that I do: exploring new ways to offload repetitive work to my spinal cord. I believe that neuroplasticity is a real competitive advantage in the software engineering field, and I'm here to help you harness it.
 
-**[hotty](https://github.com/neuroplastio/hotty)** — HTML over the TTY: what
-if terminals could speak HTML? A spec, a terminal that speaks it, and SDKs
-for building with it. Live demo at [hotty.neuroplast.io](https://hotty.neuroplast.io).
+If this sounds like fun to you, have a look at my homepage, [neuroplast.io](https://neuroplast.io). Yep, it's a TUI running fully in a terminal emulator (see [hotty](https://hotty.neuroplast.io) to learn how).
 
-- [hottyterm](https://github.com/neuroplastio/hottyterm): a terminal with
-  hotty built in, a soft fork of Ghostty (not affiliated with Ghostty)
-- [hotty-blitz](https://github.com/neuroplastio/hotty-blitz): the renderer
-  terminals link, and `hotty run` for any terminal with kitty graphics
-- [xterm-addon-hotty](https://github.com/neuroplastio/xterm-addon-hotty):
-  hotty in xterm.js
-- SDKs: [Go](https://github.com/neuroplastio/hotty-go),
-  [Rust](https://github.com/neuroplastio/hotty-rs),
-  [TypeScript](https://github.com/neuroplastio/hotty-ts),
-  [Lua](https://github.com/neuroplastio/hotty-lua)
-- [hotty-surf](https://github.com/neuroplastio/hotty-surf): a framework for
-  hotty apps
+## How I build
 
-**plx**: what if a terminal multiplexer let us try new UI and new workflows
-as fast as we think of them? It's where hotty gets used every day.
+I have to say that I build the tools that I personally use. This means that I can move on from a project if it stops being useful. On the other hand, it means I can build complete vertically integrated systems as I see fit. Sometimes ideas that feel dumb actually work out well.
 
-**[kubecom](https://github.com/neuroplastio/kubecom)**: Kubernetes in your
-terminal, with nothing installed in the cluster.
+I use AI agents. Before AI, I just couldn't afford the luxury of 8-hour flow states to get things done for a project that might end up in a graveyard. You'll find both sloppy and great code in these projects - this is by design. Every painting starts with a large stroke.
 
-**Libraries** we needed along the way, built to be small, fast and pluggable:
-[myelin](https://github.com/neuroplastio/myelin) (keymaps and which-key
-menus for Go), [cel-lite](https://github.com/neuroplastio/cel-lite) (CEL for
-TinyGo and WebAssembly) and [engram](https://github.com/neuroplastio/engram)
-(release channels as a signed, append-only journal).
+## My current passion projects
 
-## Get in touch
+* HOTTY (HTML over the TTY): what if terminals could speak HTML?
+* plx: HOTTY-enabled terminal multiplexer IDE. Everything is in-band, fully extensible and scriptable.
 
-Found a bug, or stuck on something? Open an issue in the project; see
-[how we take contributions](https://github.com/neuroplastio/.github/blob/main/CONTRIBUTING.md).
-For anything else, [toly@neuroplast.io](mailto:toly@neuroplast.io).
+## About the author
 
-More at [neuroplast.io](https://neuroplast.io).
+I'm [Toly](https://github.com/AnatolyRugalev), nice to meet you.
+
+Shoot me an email and tell me what you think: [toly@neuroplast.io](mailto:toly@neuroplast.io)
